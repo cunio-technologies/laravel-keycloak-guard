@@ -3,13 +3,21 @@
     "description": "🔑 Simple Keycloak Guard for Laravel",
     "keywords": [
         "laravel",
-        "keycloak"
+        "keycloak",
+        "guard"
     ],
     "homepage": "https://github.com/robsontenorio/laravel-keycloak-guard",
     "license": "MIT",
     "authors": [
         {
-            "name": "Robson Tenório"
+            "name": "Robson Tenório",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Martin Kleine",
+            "email": "martin.kleine@cunio.de",
+            "homepage": "https://github.com/cunio-technologies",
+            "role": "Contributor"
         }
     ],
     "minimum-stability": "dev",
@@ -35,7 +43,11 @@
             "providers": [
                 "KeycloakGuard\\KeycloakGuardServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "master"
         }
+
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3@dev",
